@@ -108,25 +108,16 @@ footer {
     color: white;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 600px) {
    #menu {
        visibility: hidden;
    } 
    .coluna, .dois, .tres, .quatro {
         display: block;   
-        width: 80%;
+        width: 90%;
         padding: 0;
-        margin: 10px auto;
+        margin: 10px ;
         float: none;
-   }
-   #logodiv {
-       width: 100%;
-       position: relative;
-       text-align: center;
-       padding: 0px;
-   }
-   #logo {
-       margin-left: 0px;
-       transform: translateX(-50%);
+ 
    }
 }
